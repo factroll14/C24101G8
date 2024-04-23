@@ -12,7 +12,7 @@ nav{
 .portada{
     height: 85vh;
     width: 98.9vw;
-    background: linear-gradient(to right top, rgba(58, 56, 56, 0.808),  rgba(0, 0, 0, 0.726)), url(./image/644bd0bea35ba73384bcaf7d2.jpg);
+    background: linear-gradient(to right top, rgba(58, 56, 56, 0.808),  rgba(0, 0, 0, 0.726)), url(../image/644bd0bea35ba73384bcaf7d2.jpg);
     background-size: cover;
     color: aliceblue;
     justify-content: center;
