@@ -1,0 +1,136 @@
+*{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+}
+
+nav{
+    background-color: rgb(1, 132, 141);
+}
+
+.portada{
+    height: 85vh;
+    width: 98.9vw;
+    background: linear-gradient(to right top, rgba(58, 56, 56, 0.808),  rgba(0, 0, 0, 0.726)), url(/image/644bd0bea35ba73384bcaf7d2.jpg);
+    background-size: cover;
+    color: aliceblue;
+    justify-content: center;
+}
+
+#nav-der{
+    margin-right: 1rem;
+}
+
+#nav-izq{
+    margin-left: 1rem;
+}
+
+.btn_search{
+    display: flex;
+    justify-content: center;
+    border-radius:25px;
+    border: 2px solid rgb(191, 183, 226);
+    padding: 8px;
+    color:white;
+    background-color: rgb(1, 132, 141);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.buscador{
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 30vw;
+}
+
+.maldito-hr{
+    margin: 7vh;
+    border: 2px solid rgb(1, 132, 141);
+}
+
+.btn-outline-light{
+    background-color: rgb(1, 132, 141) !important;
+
+}
+
+.titulo{
+    color:white
+}
+
+
+.registro{
+    border-radius: 50px; 
+    margin: 1vh;
+    padding: 1vh;
+    border-color: rgb(1, 132, 141);
+}
+
+.btn{
+    text-decoration: none;
+    padding: 3vh;
+    background-color: rgb(1, 132, 141);
+    border-radius: 10px;
+    color:white;
+}
+
+.formulario{
+    background-color: rgb(24, 22, 22);
+    text-align: center;
+    margin-left: 75vh;
+    margin-right: 75vh;
+    margin-top: 10vh;
+    border-radius: 15px;
+}
+
+.body-registrarse{
+    background-image: url(/fondo/WhatsApp\ Image\ 2024-04-20\ at\ 7.05.04\ PM.jpeg);
+    background-size: cover;
+}
+
+.texto-reg{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer{
+    margin: 0;
+    padding:30px;
+    text-align: center;
+    background-color: rgb(1, 132, 141);
+}
+
+.Nav{
+    text-decoration:none;
+    margin-inline: 3vh;
+    color:white;
+    font-size: 20px;
+}
+
+.flecha_arriba{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 2rem;
+    color:rgb(164, 223, 228);
+    cursor: pointer;
+}
+
+.lanzamientos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 150px;
+    width: 80%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar{
+    background-color: black;
+    padding: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:rgb(1, 132, 141) ;
+}

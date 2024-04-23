@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>Document</title>
+</head>
+<body class="body-registrarse">
+    <fieldset class="formulario">
+        <header>
+
+            <h1 class="titulo">Registro</h1> 
+
+        </header>
+        <main>
+            <form >
+                <div>
+                    <input name="Nombre" class="registro" placeholder="Nombre" required>
+                </div>
+                <div>
+                    <input name="Apellido" class="registro" placeholder="Apellido" required>
+                </div>
+                <div>
+                    <input name="Email" type="email" class="registro" placeholder="Email" required>
+                </div>
+                <div>
+                    <input type="password" name="Contraseña" class="registro" placeholder="Contraseña" required>
+                </div>
+                <div>
+                    <input name="Fecha" class="registro" type="date" required >
+                </div>
+                <div>
+                    <select name="nacionalidad" class="registro" required>
+                        <option value="" selected>Pais</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Perú">Perú</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Venezuela">Venezuela</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" required>
+                    <span class="texto-reg">Acepto términos y condiciones</span>
+                </div>
+                <div>
+                    <button class="btn">Registrarse</button>
+                </div>
+                <a class="texto-reg">¿Necesitas ayuda?</a>
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
